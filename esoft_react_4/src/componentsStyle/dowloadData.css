@@ -1,0 +1,39 @@
+.user-list-container {
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .user-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .user-list-item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .user-list-item:last-child {
+    border-bottom: none;
+  }
+  
+  .user-list-item:first-child {
+    border-top: 1px solid #ccc;
+  }
+  
+  .loading-message {
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+  }
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #565656;
+    padding: 5px;
+    margin: 0;
+  }
